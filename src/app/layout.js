@@ -8,20 +8,18 @@ export default function RootLayout({ children }) {
         <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              {/* تغيير لون المربع الظلي إلى الوردي */}
+              {/* شعار المنصة باللون الوردي */}
               <div className="w-8 h-8 bg-pink-500 rounded-lg shadow-pink-100 shadow-lg"></div>
-              <span className="text-xl font-black tracking-tight text-pink-700">ابتهال </span>
+              <span className="text-xl font-black tracking-tight text-pink-700">ابتهال</span>
             </div>
-            <div className="hidden md:flex gap-8 font-medium">
+            
+            {/* القائمة الرئيسية */}
+            <div className="flex gap-6 md:gap-8 font-medium">
               <a href="/" className="hover:text-pink-600 transition-colors">الرئيسية</a>
-              <a href="/about" className="hover:text-pink-600 transition-colors">لمحة عنا </a>
+              <a href="/about" className="hover:text-pink-600 transition-colors">لمحة عنا</a>
               <a href="/units" className="hover:text-pink-600 transition-colors">المناهج</a>
-              <a href="/exam" className="hover:text-pink-600 transition-colors">الاختبارات</a>
+              <a href="/exam" className="hover:text-pink-600 transition-colors text-pink-600 font-bold border-b-2 border-pink-500">الاختبارات</a>
             </div>
-            {/* تغيير لون الزر إلى الوردي */}
-            <button className="bg-pink-500 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-pink-600 transition-all shadow-md shadow-pink-100">
-              تسجيل دخول
-            </button>
           </div>
         </nav>
 

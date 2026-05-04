@@ -37,7 +37,7 @@ export default function UnitOne() {
             <div className="flex flex-col">
               <span className="text-xs font-bold text-pink-400 mb-1 uppercase tracking-widest">الدرس {lesson.id}</span>
               <span className="text-lg font-bold text-slate-700 group-hover:text-pink-700 transition-colors">
-                {lesson.title}[cite: 2]
+                {lesson.title}
               </span>
             </div>
 
